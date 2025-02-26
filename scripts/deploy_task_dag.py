@@ -1,3 +1,5 @@
+
+--!jinja
 #------------------------------------------------------------------------------
 # Hands-On Lab: Intro to Data Engineering with Notebooks
 # Script:       deploy_task_dag.py
