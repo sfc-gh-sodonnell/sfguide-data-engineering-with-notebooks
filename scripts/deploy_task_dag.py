@@ -1,12 +1,16 @@
 
 --!jinja
-#------------------------------------------------------------------------------
-# Hands-On Lab: Intro to Data Engineering with Notebooks
-# Script:       deploy_task_dag.py
-# Author:       Jeremiah Hansen
-# Last Updated: 6/11/2024
-#------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------
+Hands-On Lab: Intro to Data Engineering with Notebooks
+Script:       deploy_notebooks.sql
+Author:       Jeremiah Hansen
+Last Updated: 6/11/2024
+-----------------------------------------------------------------------------*/
 
+-- See https://docs.snowflake.com/en/LIMITEDACCESS/execute-immediate-from-template
+
+-- Create the Notebooks
+--USE SCHEMA {{env}}_SCHEMA;
 
 from snowflake.snowpark import Session
 from snowflake.core import Root
